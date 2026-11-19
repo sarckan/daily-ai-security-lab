@@ -9,6 +9,7 @@ Each project lives in its own folder under [`projects/`](projects/) with source 
 | # | Date | Project | Category | Description |
 |---|---|---|---|---|
 | 001 | 2026-11-19 | [Prompt-Injection Detector](projects/001-prompt-injection-detector/) | AI Security | Explainable rule-based scanner that scores untrusted text for prompt-injection signals before it reaches an LLM. |
+| 002 | 2026-11-19 | [Secret Leak Scanner](projects/002-secret-leak-scanner/) | Security | Finds hard-coded keys, tokens and passwords in files using signature rules plus Shannon entropy, with redacted output and CI exit codes. |
 
 ## Running any project
 
