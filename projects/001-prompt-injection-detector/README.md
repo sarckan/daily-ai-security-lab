@@ -1,5 +1,7 @@
 # 001 · Prompt-Injection Detector
 
+▶ **Watch the 30-second demo:** [demo.mp4](demo.mp4)
+
 **Category:** AI Security · **Language:** Python 3.11+ (standard library only)
 
 A small, explainable scanner that scores untrusted text (web pages, emails, documents, tool output) for **prompt-injection** signals *before* it is placed inside an LLM prompt.
