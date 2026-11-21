@@ -1,0 +1,9 @@
+# Example edge firewall (first match wins)
+allow tcp any        10.0.1.0/24 443      # public HTTPS to web tier
+allow tcp 10.0.0.0/8 10.0.2.0/24 22       # admin SSH from internal
+deny  tcp any        10.0.2.0/24 any      # lock down DB tier
+allow tcp 10.0.5.0/24 10.0.2.0/24 5432    # app -> Postgres (dead!)
+allow tcp any        10.0.1.10/32 443     # covered by line 2
+deny  any 192.168.0.0/16 10.0.1.0/24 any  # block legacy LAN
+allow udp any        any         53       # DNS
+deny  any any        any         any      # default deny
