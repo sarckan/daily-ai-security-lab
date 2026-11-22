@@ -1,0 +1,9 @@
+# Web service dependencies (deliberately messy demo file)
+--extra-index-url http://pypi.internal.example/simple
+requests==2.32.3
+flask>=2.0
+numpy
+reqeusts==2.31.0
+git+https://github.com/example/toolkit.git@main#egg=toolkit
+pyyaml==6.0.2
+Requests==2.32.3

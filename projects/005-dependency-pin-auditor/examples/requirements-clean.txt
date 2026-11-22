@@ -1,0 +1,8 @@
+# Fully pinned, hash-locked file (pip-compile --generate-hashes style)
+# Hashes below are illustrative placeholders for the demo.
+requests==2.32.3 \
+    --hash=sha256:141615f1293c72aa2718a7be0ddaaeef2355c6f0b5e149cc32c8ba74b8a9e6e2
+flask==3.0.3 \
+    --hash=sha256:d775cb637d6c6bbe6a6284e12a0b57cfb023399bde3603839cdf51ffa88095e9
+numpy==2.1.3 \
+    --hash=sha256:2f10e1910e389422d852df6d9860305296fb716610ca6d234c5ca410b550b12b

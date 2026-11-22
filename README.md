@@ -12,6 +12,7 @@ Each project lives in its own folder under [`projects/`](projects/) with source 
 | 002 | 2026-11-19 | [Secret Leak Scanner](projects/002-secret-leak-scanner/) | Security | Finds hard-coded keys, tokens and passwords in files using signature rules plus Shannon entropy, with redacted output and CI exit codes. |
 | 003 | 2026-11-20 | [Phishing URL Classifier](projects/003-phishing-url-classifier/) | AI/ML | From-scratch, explainable logistic regression that scores URLs for phishing from 11 lexical features and lists the top reasons for each verdict. |
 | 004 | 2026-11-21 | [Firewall Rule Auditor](projects/004-firewall-rule-auditor/) | Security | Models first-match firewall rules as boxes in packet space and proves which rules are shadowed, redundant or conflicting, with CI-friendly exit codes. |
+| 005 | 2026-11-22 | [Dependency Pin Auditor](projects/005-dependency-pin-auditor/) | Python Tooling | Offline requirements.txt auditor that flags unpinned and loose versions, typosquat look-alikes, mutable git refs, HTTP indexes and missing hashes, with a 0-100 supply-chain score. |
 
 ## Running any project
 
