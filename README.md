@@ -14,6 +14,7 @@ Each project lives in its own folder under [`projects/`](projects/) with source 
 | 004 | 2026-11-21 | [Firewall Rule Auditor](projects/004-firewall-rule-auditor/) | Security | Models first-match firewall rules as boxes in packet space and proves which rules are shadowed, redundant or conflicting, with CI-friendly exit codes. |
 | 005 | 2026-11-22 | [Dependency Pin Auditor](projects/005-dependency-pin-auditor/) | Python Tooling | Offline requirements.txt auditor that flags unpinned and loose versions, typosquat look-alikes, mutable git refs, HTTP indexes and missing hashes, with a 0-100 supply-chain score. |
 | 006 | 2026-11-23 | [Login Anomaly Detector](projects/006-login-anomaly-detector/) | AI/ML | Learns each user's normal login networks and hours online, then scores events for account-takeover signals (new subnet, odd hour, failure bursts, success after failures, password spray) with plain-English reasons. |
+| 007 | 2026-11-24 | [JWT Hygiene Auditor](projects/007-jwt-hygiene-auditor/) | Security | Decodes JWTs without trusting them and flags alg:none, weak or bad HMAC secrets, missing/expired/overlong lifetimes, remote key headers and secrets in the payload, with a 0-100 risk score. |
 
 ## Running any project
 
