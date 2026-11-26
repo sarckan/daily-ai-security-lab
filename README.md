@@ -16,6 +16,7 @@ Each project lives in its own folder under [`projects/`](projects/) with source 
 | 006 | 2026-11-23 | [Login Anomaly Detector](projects/006-login-anomaly-detector/) | AI/ML | Learns each user's normal login networks and hours online, then scores events for account-takeover signals (new subnet, odd hour, failure bursts, success after failures, password spray) with plain-English reasons. |
 | 007 | 2026-11-24 | [JWT Hygiene Auditor](projects/007-jwt-hygiene-auditor/) | Security | Decodes JWTs without trusting them and flags alg:none, weak or bad HMAC secrets, missing/expired/overlong lifetimes, remote key headers and secrets in the payload, with a 0-100 risk score. |
 | 008 | 2026-11-25 | [Dockerfile Hardening Linter](projects/008-dockerfile-hardening-linter/) | Python Tooling | Offline Dockerfile linter that flags root users, floating :latest images, curl-pipe-shell installers, disabled TLS checks, secrets in ENV/ARG and more, with line numbers and a 0-100 risk score. |
+| 009 | 2026-11-26 | [System Prompt Leak Detector](projects/009-system-prompt-leak-detector/) | AI/ML | Scores chatbot responses for system-prompt leakage using canary tokens, verbatim word runs, 5-gram shingle overlap and char n-gram TF-IDF cosine, with a 0-100 leak score and CI exit codes. |
 
 ## Running any project
 
