@@ -17,6 +17,7 @@ Each project lives in its own folder under [`projects/`](projects/) with source 
 | 007 | 2026-11-24 | [JWT Hygiene Auditor](projects/007-jwt-hygiene-auditor/) | Security | Decodes JWTs without trusting them and flags alg:none, weak or bad HMAC secrets, missing/expired/overlong lifetimes, remote key headers and secrets in the payload, with a 0-100 risk score. |
 | 008 | 2026-11-25 | [Dockerfile Hardening Linter](projects/008-dockerfile-hardening-linter/) | Python Tooling | Offline Dockerfile linter that flags root users, floating :latest images, curl-pipe-shell installers, disabled TLS checks, secrets in ENV/ARG and more, with line numbers and a 0-100 risk score. |
 | 009 | 2026-11-26 | [System Prompt Leak Detector](projects/009-system-prompt-leak-detector/) | AI/ML | Scores chatbot responses for system-prompt leakage using canary tokens, verbatim word runs, 5-gram shingle overlap and char n-gram TF-IDF cosine, with a 0-100 leak score and CI exit codes. |
+| 010 | 2026-11-27 | [Password Strength Auditor](projects/010-password-strength-auditor/) | Security | Estimates attacker guesses by finding common passwords, l33t words, keyboard walks, sequences, repeats, dates and personal info, then picks the cheapest decomposition with dynamic programming; 0-4 score, crack times and policy warnings. |
 
 ## Running any project
 
